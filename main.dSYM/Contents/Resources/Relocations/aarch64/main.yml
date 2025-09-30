@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/main'
+relocations:     []
+...
