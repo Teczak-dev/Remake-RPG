@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../include/Player.hpp"
+#include "../include/Characters/Player.hpp"
 
 Player::Player() : name("Unnamed"), health(100), attackPower(10) {
     std::cout << "Player " << name << " created with " << health << " health and " << attackPower << " attack power." << std::endl;

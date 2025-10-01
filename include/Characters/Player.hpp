@@ -14,6 +14,7 @@ private:
     int health;
     int attackPower;
     std::string inventory[10];
+    std::string rase;
 };
 
 #endif // PLAYER_HPP

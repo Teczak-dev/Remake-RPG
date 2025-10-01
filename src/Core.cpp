@@ -1,6 +1,6 @@
 #include <iostream>
 #include "../include/Terminal.hpp" 
-#include "../include/Player.hpp"
+#include "../include/Characters/Player.hpp"
 /* 
 void clearScreen(); 
 void setConsoleColor(int colorCode);
@@ -25,7 +25,9 @@ void GameLoop() {
             isGame = false;
         }
     }
+    delete player;
 }
+
 
 void GameStart() {
     clearScreen();
@@ -39,11 +41,11 @@ void GameStart() {
             LoadGame();
             break;
         } else if (command == "2") {
+            NewGame();
             break;
         } else {
             std::cout << "Invalid option, starting new game by default." << std::endl;
         }
-        clearScreen();
     }
 }
 
