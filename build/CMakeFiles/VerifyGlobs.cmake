@@ -13,10 +13,22 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "/Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build/CMakeFiles/cmake.verify_globs")
 endif()
 
-# CHARACTERS_SOURCE at src/Characters/CMakeLists.txt:1 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/src/Characters/*.cpp")
+# CHARACTERS_SOURCE at src/characters/CMakeLists.txt:1 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/src/characters/*.cpp")
 set(OLD_GLOB
-  "/Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/src/Characters/Player.cpp"
+  "/Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/src/characters/Player.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build/CMakeFiles/cmake.verify_globs")
+endif()
+
+# WORLDMAP_SOURCE at src/worldMap/CMakeLists.txt:1 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/src/worldMap/*.cpp")
+set(OLD_GLOB
+  "/Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/src/worldMap/Location.cpp"
+  "/Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/src/worldMap/Region.cpp"
+  "/Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/src/worldMap/WorldMap.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

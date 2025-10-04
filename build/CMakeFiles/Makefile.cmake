@@ -13,7 +13,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.1.1/CMakeSystem.cmake"
   "CMakeFiles/VerifyGlobs.cmake"
   "CMakeFiles/cmake.verify_globs"
-  "/Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/src/Characters/CMakeLists.txt"
+  "/Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/src/characters/CMakeLists.txt"
+  "/Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/src/worldMap/CMakeLists.txt"
   "/opt/homebrew/share/cmake/Modules/CMakeCInformation.cmake"
   "/opt/homebrew/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/opt/homebrew/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
@@ -55,7 +56,8 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "src/Characters/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/characters/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/worldMap/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:

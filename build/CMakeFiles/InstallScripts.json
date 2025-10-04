@@ -2,7 +2,8 @@
 	"InstallScripts" : 
 	[
 		"/Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build/cmake_install.cmake",
-		"/Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build/src/Characters/cmake_install.cmake"
+		"/Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build/src/characters/cmake_install.cmake",
+		"/Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build/src/worldMap/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

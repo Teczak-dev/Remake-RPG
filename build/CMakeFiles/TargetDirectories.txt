@@ -2,5 +2,7 @@
 /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build/CMakeFiles/Game.dir
 /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build/CMakeFiles/edit_cache.dir
 /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build/CMakeFiles/rebuild_cache.dir
-/Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build/src/Characters/CMakeFiles/edit_cache.dir
-/Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build/src/Characters/CMakeFiles/rebuild_cache.dir
+/Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build/src/characters/CMakeFiles/edit_cache.dir
+/Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build/src/characters/CMakeFiles/rebuild_cache.dir
+/Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build/src/worldMap/CMakeFiles/edit_cache.dir
+/Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build/src/worldMap/CMakeFiles/rebuild_cache.dir

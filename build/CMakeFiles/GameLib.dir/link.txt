@@ -1,2 +1,2 @@
-/usr/bin/ar qc libGameLib.a CMakeFiles/GameLib.dir/src/Core.cpp.o CMakeFiles/GameLib.dir/src/MainMenu.cpp.o CMakeFiles/GameLib.dir/src/Terminal.cpp.o CMakeFiles/GameLib.dir/src/Characters/Player.cpp.o
+/usr/bin/ar qc libGameLib.a CMakeFiles/GameLib.dir/src/Core.cpp.o CMakeFiles/GameLib.dir/src/MainMenu.cpp.o CMakeFiles/GameLib.dir/src/Terminal.cpp.o CMakeFiles/GameLib.dir/src/characters/Player.cpp.o CMakeFiles/GameLib.dir/src/worldMap/Location.cpp.o CMakeFiles/GameLib.dir/src/worldMap/Region.cpp.o CMakeFiles/GameLib.dir/src/worldMap/WorldMap.cpp.o
 /usr/bin/ranlib libGameLib.a

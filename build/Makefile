@@ -167,30 +167,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/Characters/Player.o: src/Characters/Player.cpp.o
-.PHONY : src/Characters/Player.o
-
-# target to build an object file
-src/Characters/Player.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameLib.dir/build.make CMakeFiles/GameLib.dir/src/Characters/Player.cpp.o
-.PHONY : src/Characters/Player.cpp.o
-
-src/Characters/Player.i: src/Characters/Player.cpp.i
-.PHONY : src/Characters/Player.i
-
-# target to preprocess a source file
-src/Characters/Player.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameLib.dir/build.make CMakeFiles/GameLib.dir/src/Characters/Player.cpp.i
-.PHONY : src/Characters/Player.cpp.i
-
-src/Characters/Player.s: src/Characters/Player.cpp.s
-.PHONY : src/Characters/Player.s
-
-# target to generate assembly for a file
-src/Characters/Player.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameLib.dir/build.make CMakeFiles/GameLib.dir/src/Characters/Player.cpp.s
-.PHONY : src/Characters/Player.cpp.s
-
 src/Core.o: src/Core.cpp.o
 .PHONY : src/Core.o
 
@@ -263,6 +239,102 @@ src/Terminal.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameLib.dir/build.make CMakeFiles/GameLib.dir/src/Terminal.cpp.s
 .PHONY : src/Terminal.cpp.s
 
+src/characters/Player.o: src/characters/Player.cpp.o
+.PHONY : src/characters/Player.o
+
+# target to build an object file
+src/characters/Player.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameLib.dir/build.make CMakeFiles/GameLib.dir/src/characters/Player.cpp.o
+.PHONY : src/characters/Player.cpp.o
+
+src/characters/Player.i: src/characters/Player.cpp.i
+.PHONY : src/characters/Player.i
+
+# target to preprocess a source file
+src/characters/Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameLib.dir/build.make CMakeFiles/GameLib.dir/src/characters/Player.cpp.i
+.PHONY : src/characters/Player.cpp.i
+
+src/characters/Player.s: src/characters/Player.cpp.s
+.PHONY : src/characters/Player.s
+
+# target to generate assembly for a file
+src/characters/Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameLib.dir/build.make CMakeFiles/GameLib.dir/src/characters/Player.cpp.s
+.PHONY : src/characters/Player.cpp.s
+
+src/worldMap/Location.o: src/worldMap/Location.cpp.o
+.PHONY : src/worldMap/Location.o
+
+# target to build an object file
+src/worldMap/Location.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameLib.dir/build.make CMakeFiles/GameLib.dir/src/worldMap/Location.cpp.o
+.PHONY : src/worldMap/Location.cpp.o
+
+src/worldMap/Location.i: src/worldMap/Location.cpp.i
+.PHONY : src/worldMap/Location.i
+
+# target to preprocess a source file
+src/worldMap/Location.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameLib.dir/build.make CMakeFiles/GameLib.dir/src/worldMap/Location.cpp.i
+.PHONY : src/worldMap/Location.cpp.i
+
+src/worldMap/Location.s: src/worldMap/Location.cpp.s
+.PHONY : src/worldMap/Location.s
+
+# target to generate assembly for a file
+src/worldMap/Location.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameLib.dir/build.make CMakeFiles/GameLib.dir/src/worldMap/Location.cpp.s
+.PHONY : src/worldMap/Location.cpp.s
+
+src/worldMap/Region.o: src/worldMap/Region.cpp.o
+.PHONY : src/worldMap/Region.o
+
+# target to build an object file
+src/worldMap/Region.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameLib.dir/build.make CMakeFiles/GameLib.dir/src/worldMap/Region.cpp.o
+.PHONY : src/worldMap/Region.cpp.o
+
+src/worldMap/Region.i: src/worldMap/Region.cpp.i
+.PHONY : src/worldMap/Region.i
+
+# target to preprocess a source file
+src/worldMap/Region.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameLib.dir/build.make CMakeFiles/GameLib.dir/src/worldMap/Region.cpp.i
+.PHONY : src/worldMap/Region.cpp.i
+
+src/worldMap/Region.s: src/worldMap/Region.cpp.s
+.PHONY : src/worldMap/Region.s
+
+# target to generate assembly for a file
+src/worldMap/Region.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameLib.dir/build.make CMakeFiles/GameLib.dir/src/worldMap/Region.cpp.s
+.PHONY : src/worldMap/Region.cpp.s
+
+src/worldMap/WorldMap.o: src/worldMap/WorldMap.cpp.o
+.PHONY : src/worldMap/WorldMap.o
+
+# target to build an object file
+src/worldMap/WorldMap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameLib.dir/build.make CMakeFiles/GameLib.dir/src/worldMap/WorldMap.cpp.o
+.PHONY : src/worldMap/WorldMap.cpp.o
+
+src/worldMap/WorldMap.i: src/worldMap/WorldMap.cpp.i
+.PHONY : src/worldMap/WorldMap.i
+
+# target to preprocess a source file
+src/worldMap/WorldMap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameLib.dir/build.make CMakeFiles/GameLib.dir/src/worldMap/WorldMap.cpp.i
+.PHONY : src/worldMap/WorldMap.cpp.i
+
+src/worldMap/WorldMap.s: src/worldMap/WorldMap.cpp.s
+.PHONY : src/worldMap/WorldMap.s
+
+# target to generate assembly for a file
+src/worldMap/WorldMap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameLib.dir/build.make CMakeFiles/GameLib.dir/src/worldMap/WorldMap.cpp.s
+.PHONY : src/worldMap/WorldMap.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -276,9 +348,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/Characters/Player.o"
-	@echo "... src/Characters/Player.i"
-	@echo "... src/Characters/Player.s"
 	@echo "... src/Core.o"
 	@echo "... src/Core.i"
 	@echo "... src/Core.s"
@@ -288,6 +357,18 @@ help:
 	@echo "... src/Terminal.o"
 	@echo "... src/Terminal.i"
 	@echo "... src/Terminal.s"
+	@echo "... src/characters/Player.o"
+	@echo "... src/characters/Player.i"
+	@echo "... src/characters/Player.s"
+	@echo "... src/worldMap/Location.o"
+	@echo "... src/worldMap/Location.i"
+	@echo "... src/worldMap/Location.s"
+	@echo "... src/worldMap/Region.o"
+	@echo "... src/worldMap/Region.i"
+	@echo "... src/worldMap/Region.s"
+	@echo "... src/worldMap/WorldMap.o"
+	@echo "... src/worldMap/WorldMap.i"
+	@echo "... src/worldMap/WorldMap.s"
 .PHONY : help
 
 

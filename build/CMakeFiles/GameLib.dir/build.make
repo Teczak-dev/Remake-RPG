@@ -114,26 +114,71 @@ CMakeFiles/GameLib.dir/src/Terminal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameLib.dir/src/Terminal.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/src/Terminal.cpp -o CMakeFiles/GameLib.dir/src/Terminal.cpp.s
 
-CMakeFiles/GameLib.dir/src/Characters/Player.cpp.o: CMakeFiles/GameLib.dir/flags.make
-CMakeFiles/GameLib.dir/src/Characters/Player.cpp.o: /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/src/Characters/Player.cpp
-CMakeFiles/GameLib.dir/src/Characters/Player.cpp.o: CMakeFiles/GameLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GameLib.dir/src/Characters/Player.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameLib.dir/src/Characters/Player.cpp.o -MF CMakeFiles/GameLib.dir/src/Characters/Player.cpp.o.d -o CMakeFiles/GameLib.dir/src/Characters/Player.cpp.o -c /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/src/Characters/Player.cpp
+CMakeFiles/GameLib.dir/src/characters/Player.cpp.o: CMakeFiles/GameLib.dir/flags.make
+CMakeFiles/GameLib.dir/src/characters/Player.cpp.o: /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/src/characters/Player.cpp
+CMakeFiles/GameLib.dir/src/characters/Player.cpp.o: CMakeFiles/GameLib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GameLib.dir/src/characters/Player.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameLib.dir/src/characters/Player.cpp.o -MF CMakeFiles/GameLib.dir/src/characters/Player.cpp.o.d -o CMakeFiles/GameLib.dir/src/characters/Player.cpp.o -c /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/src/characters/Player.cpp
 
-CMakeFiles/GameLib.dir/src/Characters/Player.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameLib.dir/src/Characters/Player.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/src/Characters/Player.cpp > CMakeFiles/GameLib.dir/src/Characters/Player.cpp.i
+CMakeFiles/GameLib.dir/src/characters/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameLib.dir/src/characters/Player.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/src/characters/Player.cpp > CMakeFiles/GameLib.dir/src/characters/Player.cpp.i
 
-CMakeFiles/GameLib.dir/src/Characters/Player.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameLib.dir/src/Characters/Player.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/src/Characters/Player.cpp -o CMakeFiles/GameLib.dir/src/Characters/Player.cpp.s
+CMakeFiles/GameLib.dir/src/characters/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameLib.dir/src/characters/Player.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/src/characters/Player.cpp -o CMakeFiles/GameLib.dir/src/characters/Player.cpp.s
+
+CMakeFiles/GameLib.dir/src/worldMap/Location.cpp.o: CMakeFiles/GameLib.dir/flags.make
+CMakeFiles/GameLib.dir/src/worldMap/Location.cpp.o: /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/src/worldMap/Location.cpp
+CMakeFiles/GameLib.dir/src/worldMap/Location.cpp.o: CMakeFiles/GameLib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GameLib.dir/src/worldMap/Location.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameLib.dir/src/worldMap/Location.cpp.o -MF CMakeFiles/GameLib.dir/src/worldMap/Location.cpp.o.d -o CMakeFiles/GameLib.dir/src/worldMap/Location.cpp.o -c /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/src/worldMap/Location.cpp
+
+CMakeFiles/GameLib.dir/src/worldMap/Location.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameLib.dir/src/worldMap/Location.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/src/worldMap/Location.cpp > CMakeFiles/GameLib.dir/src/worldMap/Location.cpp.i
+
+CMakeFiles/GameLib.dir/src/worldMap/Location.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameLib.dir/src/worldMap/Location.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/src/worldMap/Location.cpp -o CMakeFiles/GameLib.dir/src/worldMap/Location.cpp.s
+
+CMakeFiles/GameLib.dir/src/worldMap/Region.cpp.o: CMakeFiles/GameLib.dir/flags.make
+CMakeFiles/GameLib.dir/src/worldMap/Region.cpp.o: /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/src/worldMap/Region.cpp
+CMakeFiles/GameLib.dir/src/worldMap/Region.cpp.o: CMakeFiles/GameLib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/GameLib.dir/src/worldMap/Region.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameLib.dir/src/worldMap/Region.cpp.o -MF CMakeFiles/GameLib.dir/src/worldMap/Region.cpp.o.d -o CMakeFiles/GameLib.dir/src/worldMap/Region.cpp.o -c /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/src/worldMap/Region.cpp
+
+CMakeFiles/GameLib.dir/src/worldMap/Region.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameLib.dir/src/worldMap/Region.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/src/worldMap/Region.cpp > CMakeFiles/GameLib.dir/src/worldMap/Region.cpp.i
+
+CMakeFiles/GameLib.dir/src/worldMap/Region.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameLib.dir/src/worldMap/Region.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/src/worldMap/Region.cpp -o CMakeFiles/GameLib.dir/src/worldMap/Region.cpp.s
+
+CMakeFiles/GameLib.dir/src/worldMap/WorldMap.cpp.o: CMakeFiles/GameLib.dir/flags.make
+CMakeFiles/GameLib.dir/src/worldMap/WorldMap.cpp.o: /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/src/worldMap/WorldMap.cpp
+CMakeFiles/GameLib.dir/src/worldMap/WorldMap.cpp.o: CMakeFiles/GameLib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/GameLib.dir/src/worldMap/WorldMap.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameLib.dir/src/worldMap/WorldMap.cpp.o -MF CMakeFiles/GameLib.dir/src/worldMap/WorldMap.cpp.o.d -o CMakeFiles/GameLib.dir/src/worldMap/WorldMap.cpp.o -c /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/src/worldMap/WorldMap.cpp
+
+CMakeFiles/GameLib.dir/src/worldMap/WorldMap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameLib.dir/src/worldMap/WorldMap.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/src/worldMap/WorldMap.cpp > CMakeFiles/GameLib.dir/src/worldMap/WorldMap.cpp.i
+
+CMakeFiles/GameLib.dir/src/worldMap/WorldMap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameLib.dir/src/worldMap/WorldMap.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/src/worldMap/WorldMap.cpp -o CMakeFiles/GameLib.dir/src/worldMap/WorldMap.cpp.s
 
 # Object files for target GameLib
 GameLib_OBJECTS = \
 "CMakeFiles/GameLib.dir/src/Core.cpp.o" \
 "CMakeFiles/GameLib.dir/src/MainMenu.cpp.o" \
 "CMakeFiles/GameLib.dir/src/Terminal.cpp.o" \
-"CMakeFiles/GameLib.dir/src/Characters/Player.cpp.o"
+"CMakeFiles/GameLib.dir/src/characters/Player.cpp.o" \
+"CMakeFiles/GameLib.dir/src/worldMap/Location.cpp.o" \
+"CMakeFiles/GameLib.dir/src/worldMap/Region.cpp.o" \
+"CMakeFiles/GameLib.dir/src/worldMap/WorldMap.cpp.o"
 
 # External object files for target GameLib
 GameLib_EXTERNAL_OBJECTS =
@@ -141,10 +186,13 @@ GameLib_EXTERNAL_OBJECTS =
 libGameLib.a: CMakeFiles/GameLib.dir/src/Core.cpp.o
 libGameLib.a: CMakeFiles/GameLib.dir/src/MainMenu.cpp.o
 libGameLib.a: CMakeFiles/GameLib.dir/src/Terminal.cpp.o
-libGameLib.a: CMakeFiles/GameLib.dir/src/Characters/Player.cpp.o
+libGameLib.a: CMakeFiles/GameLib.dir/src/characters/Player.cpp.o
+libGameLib.a: CMakeFiles/GameLib.dir/src/worldMap/Location.cpp.o
+libGameLib.a: CMakeFiles/GameLib.dir/src/worldMap/Region.cpp.o
+libGameLib.a: CMakeFiles/GameLib.dir/src/worldMap/WorldMap.cpp.o
 libGameLib.a: CMakeFiles/GameLib.dir/build.make
 libGameLib.a: CMakeFiles/GameLib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libGameLib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libGameLib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/GameLib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GameLib.dir/link.txt --verbose=$(VERBOSE)
 

@@ -13,8 +13,8 @@ file(GLOB ROOT_SOURCES CONFIGURE_DEPENDS src/*.cpp)
 target_sources(GameLib PRIVATE ${ROOT_SOURCES})
 
 # Podkatalogi
-add_subdirectory(src/Characters)
-
+add_subdirectory(src/characters)
+add_subdirectory(src/worldMap)
 # Program
 add_executable(Game main.cpp)
 target_link_libraries(Game PRIVATE GameLib)

@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build/CMakeFiles /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build/src/characters//CMakeFiles/progress.marks
-	cd /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/characters/all
+	cd /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build/CMakeFiles /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build/src/worldMap//CMakeFiles/progress.marks
+	cd /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/worldMap/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/characters/clean
+	cd /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/worldMap/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,12 +103,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/characters/preinstall
+	cd /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/worldMap/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/characters/preinstall
+	cd /Users/mikolajsobczak/Dane/Programowanie/CPP/Remake-RPG/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/worldMap/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
