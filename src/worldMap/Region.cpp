@@ -14,3 +14,7 @@ Region::~Region(){
   locations.clear();
   std::cout<<"Zniszczono region"<<std::endl;
 }
+
+Location Region::getLocations(int id){
+  return *locations[id];
+}

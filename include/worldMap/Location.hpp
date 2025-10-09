@@ -7,6 +7,7 @@ public:
   Location();
   Location(std::string name, int terminalColor, std::string description, std::string type);
   ~Location();
+  std::string getName() { return name; }
 private:
   std::string name;
   int terminalColor; // Color code for terminal display
