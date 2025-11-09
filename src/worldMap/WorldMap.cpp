@@ -1,6 +1,7 @@
 #include "../../include/worldMap/WorldMap.hpp"
 #include "../../include/worldMap/Location.hpp"
 #include "../../include/worldMap/Region.hpp"
+#include <cstddef>
 #include <iostream>
 
 WorldMap::WorldMap() {
@@ -35,14 +36,12 @@ WorldMap::WorldMap() {
                         "light in all directions.",
                         "village")},
           "cold", "mountainous", 10)};
-  // setActiveRegion(getRegions(0));
-  // setActiveLocation(getActiveRegion().getLocations(0));
+  setActiveRegion(getRegion(0));
+  setActiveLocation(getActiveRegion().getLocation(0));
 
   std::cout << "Stworzono mapę świata" << std::endl;
-  std::cout << "Aktywny region: " << getActiveRegion().getLocations(0).getName()
-            << std::endl;
-  std::cout << "Aktywna lokacja: " << getActiveLocation().getName()
-            << std::endl;
+  std::cout << "Aktywny region: " << getActiveRegion().getLocation(0).getName()<< std::endl;
+  std::cout << "Aktywna lokacja: " << getActiveLocation().getName()<< std::endl;
 }
 WorldMap::~WorldMap() {
   for (auto region : regions) {
@@ -51,10 +50,10 @@ WorldMap::~WorldMap() {
   regions.clear();
   std::cout << "Zniszczono mapę" << std::endl;
 }
-void WorldMap::setActiveRegion(Region region) { *activeRegion = region; }
-void WorldMap::setActiveLocation(Location location) {
-  *activeLocation = location;
+void WorldMap::setActiveRegion(Region* region) { activeRegion = region; }
+void WorldMap::setActiveLocation(Location* location) {
+  activeLocation = location;
 }
-Region WorldMap::getActiveRegion() { return *activeRegion; }
-Location WorldMap::getActiveLocation() { return *activeLocation; }
-Region WorldMap::getRegions(int id) { return *regions[id]; }
+Region* WorldMap::getActiveRegion() { return activeRegion; }
+Location* WorldMap::getActiveLocation() { return activeLocation; }
+Region* WorldMap::getRegion(std::size_t id) { return regions.at(id); }

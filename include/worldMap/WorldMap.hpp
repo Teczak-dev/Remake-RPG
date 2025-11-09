@@ -8,14 +8,14 @@ class WorldMap{
 public:
   WorldMap();
   ~WorldMap();
-  void setActiveRegion(Region region);
-  void setActiveLocation(Location location);
-  Region getActiveRegion();
-  Location getActiveLocation();
-  Region getRegions(int id);
+  void setActiveRegion(Region* region);
+  void setActiveLocation(Location* location);
+  Region* getActiveRegion();
+  Location* getActiveLocation();
+  Region* getRegion(std::size_t id);
 private:
   std::vector<Region*> regions;  
-  Region* activeRegion;
-  Location* activeLocation;
+  Region* activeRegion = nullptr;
+  Location* activeLocation = nullptr;
 };
 #endif 

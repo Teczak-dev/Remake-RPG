@@ -1,3 +1,4 @@
+#include <cstddef>
 #include <iostream>
 #include "../../include/worldMap/Region.hpp"
 #include "../../include/worldMap/Location.hpp"
@@ -15,6 +16,6 @@ Region::~Region(){
   std::cout<<"Zniszczono region"<<std::endl;
 }
 
-Location Region::getLocations(int id){
-  return *locations[id];
+Location* Region::getLocation(std::size_t id){
+  return locations[id];
 }
